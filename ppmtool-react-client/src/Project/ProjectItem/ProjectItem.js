@@ -22,7 +22,7 @@ class ProjectItems extends React.Component {
                             </a>
                             <a href="#">
                                 <li className="list-group-item update">
-                                    <i className="fa fa-edit pr-1"> Update Project Info</i>
+                                   <i className="fa fa-edit pr-1"> Update Project Info</i>
                                 </li>
                             </a>
                             <a href="">
