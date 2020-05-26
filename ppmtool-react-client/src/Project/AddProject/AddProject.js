@@ -83,9 +83,9 @@ class AddProject extends Component {
                                             value={this.state.projectIdentifier}
                                             onChange={this.onChange}
                                         />
-                                        {errors.projectName && (
+                                        {errors.projectIdentifier && (
                                             <div className="invalid-feedback">
-                                                {errors.projectName}
+                                                {errors.projectIdentifier}
                                             </div>
                                         )}
                                     </div>
@@ -102,9 +102,9 @@ class AddProject extends Component {
                                             onChange={this.onChange}
                                         >
                                         </textarea>
-                                        {errors.projectName && (
+                                        {errors.description && (
                                             <div className="invalid-feedback">
-                                                {errors.projectName}
+                                                {errors.description}
                                             </div>
                                         )}
                                     </div>
